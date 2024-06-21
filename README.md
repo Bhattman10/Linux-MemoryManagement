@@ -7,3 +7,7 @@ To build your program, we will execute these commands:
  	$ cd MemoryManager
 	$ make
 	$ cd ..
+
+To link against the library, we will execute this command:
+ 
+	$ c++ -std=c++17 -o program_name sourcefile.c -L ./MemoryManager -lMemoryManager
